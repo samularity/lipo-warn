@@ -27,7 +27,8 @@ for now 3 Cells is Maximum, can be changed (Hardware and software needs to be ed
 			  PB2 max 1,1V
 
 13 000 mV max
-10bit ADC
+10bit ADC von 0 bis 13000mV
+2^10=1024
 1 ADC-bit -> 12,695mV
 */
 #include <avr/io.h>
